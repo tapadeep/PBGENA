@@ -88,10 +88,8 @@ if rank==0:
 topology_mapping=np.empty(nn,dtype='int')
 attribute_mapping=np.empty(aa,dtype='int')
 if rank==0:
-    for i in range(nn):
-        topology_mapping[i]=random.randint(0,topology_dimension-1)
-    for i in range(aa):
-        attribute_mapping[i]=random.randint(0,attribute_dimension-1)
+    topology_mapping=np.random.randint(low=0,high=topology_dimension,size=(nn,))
+    attribute_mapping=np.random.randint(low=0,high=attribute_dimension,size=(aa,))
 comm.Bcast(topology_mapping)
 comm.Bcast(attribute_mapping)
 topology_sketches=dict()
