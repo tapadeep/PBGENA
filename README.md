@@ -32,6 +32,8 @@ python link_prediction.py --graph Facebook --algorithm BGENA --erf 0.3 --N 2000 
 ```
 
 ### Relevant Hyperparameters
+
+### Hyperparameters for Node Classification
 Graph | $`\alpha`$ | $`b_a`$ | $`b_t`$ |
 --- | --- | --- | --- |
 Wikipedia | 0.85 | 0.00 | 0.20 |
