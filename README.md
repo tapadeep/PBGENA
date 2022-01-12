@@ -38,6 +38,17 @@ Graph | α | b_a | b_t |
 :---: | :---: | :---: | :---: |
 Wikipedia | 0.85 | 0.00 | 0.20 |
 Cora | 0.60 | 0.80 | 0.80 |
+CiteSeer | 0.80 | 0.90 | 0.40 |
+Facebook | 0.50 | 0.70 | 0.60 |
+BlogCatalog | 0.60 | 0.00 | 0.00 |
+Flickr | 0.90 | 0.00 | 0.85 |
+PubMed | 0.65 | 0.00 | 0.80 |
+PPI | 0.10 | 0.95 | 0.50 |
+Twitter | 0.60 | 0.00 | 0.00 |
+Google+ | 0.15 | 0.50 | 0.00 |
+Reddit | 0.10 | 0.00 | 0.00 |
+TWeibo | 0.60 | 0.00 | 0.00 |
+MAKG | 0.85 | 0.86 | 0.60 |
 
 ### Create your own network:
 To create your own network, you need three files: ```attribute_matrix.npz```, ```edge_list.npy```, and ```label_array.npy``` or ```label_array.npz``` (depending on whether the graph is single labeled or multi-labeled). 
