@@ -68,4 +68,4 @@ TWeibo | 0.95 | 0.00 | 0.00 |
 MAKG | 0.85 | 0.86 | 0.60 |
 
 ### Create your own network:
-To create your own network, you need three files: ```edge_list.npy```, ```attribute_matrix.npz```, and ```label_array.npy``` or ```label_array.npz``` (depending on whether the graph is single labeled or multi-labeled). Make sure all your vertex IDs are in the range _(0, nodes-1)_. Create a numpy array of the edges of shape _(edges, 2)_ and save that file as ```edge_list.npy```. Next w
+To create your own network, you need three files: ```edge_list.npy```, ```attribute_matrix.npz```, and ```label_array.npy``` or ```label_array.npz``` (depending on whether the graph is single labeled or multi-labeled). Make sure all your vertex IDs are in the range _(0, nodes-1)_. Create a numpy array of the edges of shape _(edges, 2)_ and save that file as ```edge_list.npy```. Store the attributes as a sparse CSR matrix of shape _(nodes, attributes)_. To run PBGENA without attributes, simply create an empty attribute matrix for the non-attributed graphs of proper shape, and set _α=0_.
