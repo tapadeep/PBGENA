@@ -31,5 +31,10 @@ cd 'PBGENA/Code/Link Prediction'
 python link_prediction.py --graph Facebook --algorithm BGENA --erf 0.3 --N 2000 --alpha 0.8 --b_a 1 --b_t 0
 ```
 
-### Create your own network
+### Relevant Hyperparameters
+Graph | $`\alpha`$ | $`b_a`$ | $`b_t`$ |
+--- | --- | --- | --- |
+Wikipedia | 0.85 | 0.00 | 0.20 |
+
+### Create your own network:
 To create your own network, you need three files: ```attribute_matrix.npz```, ```edge_list.npy```, and ```label_array.npy``` or ```label_array.npz``` (depending on whether the graph is single labeled or multi-labeled). 
