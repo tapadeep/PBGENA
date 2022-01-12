@@ -31,7 +31,7 @@ cd 'PBGENA/Code/Link Prediction'
 python link_prediction.py --graph Facebook --algorithm BGENA --erf 0.3 --N 2000 --alpha 0.8 --b_a 1 --b_t 0
 ```
 
-### Relevant Hyperparameters
+### Relevant Hyperparameters:
 
 #### Node Classification Hyperparameters:
 Graph | α | b_a | b_t |
@@ -48,6 +48,23 @@ Twitter | 0.60 | 0.00 | 0.00 |
 Google+ | 0.15 | 0.50 | 0.00 |
 Reddit | 0.10 | 0.00 | 0.00 |
 TWeibo | 0.60 | 0.00 | 0.00 |
+MAKG | 0.85 | 0.86 | 0.60 |
+
+#### Link Prediction Hyperparameters:
+Graph | α | b_a | b_t |
+:---: | :---: | :---: | :---: |
+Wikipedia | 0.95 | 0.20 | 0.20 |
+Cora | 0.60 | 0.30 | 0.40 |
+CiteSeer | 0.90 | 0.20 | 0.40 |
+Facebook | 0.80 | 1.00 | 0.00 |
+BlogCatalog | 0.90 | 0.20 | 0.00 |
+Flickr | 0.90 | 0.00 | 0.00 |
+PubMed | 0.95 | 0.20 | 0.20 |
+PPI | 0.10 | 0.00 | 0.10 |
+Twitter | 0.95 | 0.00 | 0.20 |
+Google+ | 0.90 | 0.05 | 0.10 |
+Reddit | 0.95 | 0.20 | 0.00 |
+TWeibo | 0.95 | 0.00 | 0.00 |
 MAKG | 0.85 | 0.86 | 0.60 |
 
 ### Create your own network:
