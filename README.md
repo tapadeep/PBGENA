@@ -33,10 +33,11 @@ python link_prediction.py --graph Facebook --algorithm BGENA --erf 0.3 --N 2000 
 
 ### Relevant Hyperparameters
 
-### Hyperparameters for Node Classification
-Graph | α | $`b_a`$ | $`b_t`$ |
+#### Node Classification Hyperparameters:
+Graph | α | b_a | b_t |
 :---: | :---: | :---: | :---: |
 Wikipedia | 0.85 | 0.00 | 0.20 |
+Cora | 0.60 | 0.80 | 0.80 |
 
 ### Create your own network:
 To create your own network, you need three files: ```attribute_matrix.npz```, ```edge_list.npy```, and ```label_array.npy``` or ```label_array.npz``` (depending on whether the graph is single labeled or multi-labeled). 
