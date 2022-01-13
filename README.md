@@ -1,7 +1,7 @@
 # PBGENA
 ## Parallelized Binary embedding GENerator for Attributed graphs
 
-![PBGENA Snapshot](https://github.com/tapadeep/PBGENA/blob/main/Examples/PBGENA.png)
+![PBGENA Snapshot](https://github.com/tapadeep/PBGENA/blob/main/Examples/PBGENA_snapshot.png)
 
 ### Get PBGENA:
 ```
