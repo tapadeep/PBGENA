@@ -1,0 +1,8 @@
+graph PubMed
+N 2000
+alpha 0.65
+b_a 0.0
+b_t 0.8
+nodes 19717
+edges 44324
+attributes 500
