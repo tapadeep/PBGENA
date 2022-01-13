@@ -33,6 +33,20 @@ cd 'PBGENA/Code/Link Prediction'
 python link_prediction.py --graph Facebook --algorithm BGENA --erf 0.3 --N 2000 --alpha 0.8 --b_a 1 --b_t 0
 ```
 
+### Execute PBGENA:
+
+#### Perform Node Embedding:
+```
+cd PBGENA/Code/Algorithm
+python PBGENA.py --graph PubMed --N 2000 --alpha 0.65 --b_a 0 --b_t 0.8 --p 6
+```
+
+#### Perform Node Classification:
+```
+cd 'PBGENA/Code/Node Classification'
+python node_classification.py --graph PubMed --algorithm PBGENA --tr 0.7
+```
+
 ### Relevant Hyperparameters:
 
 #### Node Classification Hyperparameters:
