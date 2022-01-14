@@ -42,6 +42,7 @@ python link_prediction.py --graph Facebook --algorithm BGENA --erf 0.3 --N 2000 
 cd PBGENA/Code/Algorithm
 python PBGENA.py --graph PubMed --N 8000 --alpha 0.65 --b_a 0 --b_t 0.8 --p 6
 ```
+Make sure you have Open MPI, MPICH, or Microsoft MPI installed in your system. 
 
 #### Perform Node Classification:
 ```
