@@ -1,8 +1,0 @@
-graph BlogCatalog
-N 8000
-alpha 0.6
-b_a 0.0
-b_t 0.0
-nodes 5196
-edges 171743
-attributes 8189
