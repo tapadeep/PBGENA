@@ -32,7 +32,7 @@ Ignore the ```--multi``` flag for graphs that are not multi-labeled.
 #### Perform Link Prediction:
 ```
 cd 'PBGENA/Code/Link Prediction'
-python link_prediction.py --graph Facebook --algorithm BGENA --erf 0.3 --N 2000 --alpha 0.8 --b_a 1 --b_t 0
+python -B link_prediction.py --graph Facebook --algorithm BGENA --erf 0.3 --N 2000 --alpha 0.8 --b_a 1 --b_t 0
 ```
 
 ### Execute PBGENA:
@@ -53,7 +53,7 @@ python node_classification.py --graph PubMed --algorithm PBGENA --tr 0.7
 #### Perform Link Prediction:
 ```
 cd 'PBGENA/Code/Link Prediction'
-python link_prediction.py --graph PubMed --algorithm PBGENA --erf 0.3 --N 8000 --alpha 0.95 --b_a 0.2 --b_t 0.2 --p 6
+python -B link_prediction.py --graph PubMed --algorithm PBGENA --erf 0.3 --N 8000 --alpha 0.95 --b_a 0.2 --b_t 0.2 --p 6
 ```
 
 ### Examples:
