@@ -81,7 +81,7 @@ class PBGENA(object):
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description='PBGENA')
     parser.add_argument('--graph',type=str,help='Network Name')
-    parser.add_argument('--N',type=int,default=2000,help='Embedding Dimension')
+    parser.add_argument('--N',type=int,default=8000,help='Embedding Dimension')
     parser.add_argument('--alpha',type=float,help='Fraction of the dimensions to be used for attributes')
     parser.add_argument('--b_t',type=float,help='Topology Bitset Probability')
     parser.add_argument('--b_a',type=float,help='Attribute Bitset Probability')
