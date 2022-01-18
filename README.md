@@ -61,6 +61,11 @@ cd 'PBGENA/Code/Link Prediction'
 python -B link_prediction.py --graph PubMed --algorithm PBGENA --erf 0.3 --N 8000 --alpha 0.95 --b_a 0.2 --b_t 0.2 --p 6
 ```
 
+### Relevant Flags:
+Flag | Description |
+:---: | :--- |
+```--tr``` | Training Ratio for Node Classification
+
 ### Examples:
 An online [Google Colaboratory Notebook](https://colab.research.google.com/drive/1BxVSlK0UNK4e1-5S6Ntw0HhbiAqSv9P5?usp=sharing) is provided, which demonstrates PBGENA's working. Other examples are provided in the ```Examples``` folder.
 
