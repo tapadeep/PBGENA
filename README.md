@@ -63,7 +63,7 @@ An online [Google Colaboratory Notebook](https://colab.research.google.com/drive
 
 #### Node Classification Hyperparameters:
 Graph | α | b_a | b_t |
-:---: | :---: | :---: | :---: |
+:--- | :---: | :---: | :---: |
 Wikipedia | 0.85 | 0.00 | 0.20 |
 Cora | 0.60 | 0.80 | 0.80 |
 CiteSeer | 0.80 | 0.90 | 0.40 |
@@ -80,7 +80,7 @@ MAKG | 0.85 | 0.86 | 0.60 |
 
 #### Link Prediction Hyperparameters:
 Graph | α | b_a | b_t |
-:---: | :---: | :---: | :---: |
+:--- | :---: | :---: | :---: |
 Wikipedia | 0.95 | 0.20 | 0.20 |
 Cora | 0.60 | 0.30 | 0.40 |
 CiteSeer | 0.90 | 0.20 | 0.40 |
@@ -96,8 +96,23 @@ TWeibo | 0.95 | 0.00 | 0.00 |
 MAKG | 0.85 | 0.86 | 0.60 |
 
 ### Datasets:
+Graph | #Vertices | #Edges | #Attributes | #Labels | Multi-labeled? |
+:--- | :--- | :--- | :--- | :--- | :---: |
+Wikipedia | 2,405 | 11,596 | 4,973 | 17 | No |
+Cora | 2,708 | 5,278 | 1,433 | 7 | No |
+CiteSeer | 3,312 | 4,536 | 3,703 | 6 | No |
+Facebook | 4,039 | 88,234 | 1,283 | 193 | Yes |
+BlogCatalog | 5,196 | 171,743 | 8,189 | 6 | No |
+Flickr | 7,575 | 239,738 | 12,047 | 9 | No |
+PubMed | 19,717 | 44,324 | 500 | 3 | No |
+PPI | 56,944 | 793,632 | 50 | 121 | Yes |
+Twitter | 81,306 | 1,342,296 | 216,839 | 4,065 | Yes |
+Google+ | 107,614 | 12,238,285 | 15,907 | 468 | Yes |
+Reddit | 232,965 | 57,307,946 | 602 | 41 | No |
+TWeibo | 2,320,895 | 50,133,369 | 1,657 | 9 | No |
+MAKG | 59,249,719 | 976,901,586 | 7,211 | 100 | Yes |
 
-Some of the preprocessed networks are added to the ```Datasets``` folder and the remaining can be downloaded [online](https://drive.google.com/drive/folders/16qCQhylABkaLD-RlBgRQlDUgu6a2HaZS?usp=sharing). All these datasets are obtained from [Dr. Jieming Shi's website](https://www4.comp.polyu.edu.hk/~jiemshi/datasets.html).
+Some of the preprocessed networks are added to the ```Datasets``` folder and the remaining can be downloaded [online](https://drive.google.com/drive/folders/16qCQhylABkaLD-RlBgRQlDUgu6a2HaZS?usp=sharing). All of the datasets are obtained from [Dr. Jieming Shi's website](https://www4.comp.polyu.edu.hk/~jiemshi/datasets.html).
 
 ### Create your own network:
 To create your own network, you need three files: ```edge_list.npy```, ```attribute_matrix.npz```, and ```label_array.npy``` or ```label_array.npz``` (depending on whether the graph is single-labeled or multi-labeled). Make sure all your vertex IDs are in the range _(0, nodes-1)_. Create a numpy array of the edges of shape _(edges, 2)_ and save that file as ```edge_list.npy```. Store the attributes as a sparse CSR-matrix of shape _(nodes, attributes)_. To run PBGENA without attributes, simply create an empty attribute matrix for the non-attributed graph of proper shape, and set _α=0_. Save the attribute file as ```attribute_matrix.npz```. The file for label array is required only for node classification, and can be ignored to perform link prediction on unlabeled graphs. If the graph is single-labeled, the file ```label_array.npy``` is a simple 1D array where the _i_'th number denotes the label for node _i_. For multi-labeled graphs, ```label_array.npz``` is a [MultiLabelBinarized](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MultiLabelBinarizer.html) CSR-matrix of shape _(nodes, labels)_. Finally, put these three files in a folder named with the graph name and add it to the ```Datasets``` folder.
