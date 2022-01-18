@@ -1,5 +1,6 @@
 # PBGENA
 ## Parallelized Binary embedding GENerator for Attributed graphs
+A Sketch-based Approach towards Scalable and Efficient Attributed Network Embedding
 
 <img src="https://github.com/tapadeep/PBGENA/blob/main/Examples/PBGENA_snapshot.png" width="575">
 
