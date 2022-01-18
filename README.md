@@ -95,5 +95,9 @@ Reddit | 0.95 | 0.20 | 0.00 |
 TWeibo | 0.95 | 0.00 | 0.00 |
 MAKG | 0.85 | 0.86 | 0.60 |
 
+### Datasets:
+
+Some of the preprocessed networks are added to the ```Datasets``` folder and the remaining can be downloaded [online](https://drive.google.com/drive/folders/16qCQhylABkaLD-RlBgRQlDUgu6a2HaZS?usp=sharing). All these datasets are obtained from [Dr. Jieming Shi's website](https://www4.comp.polyu.edu.hk/~jiemshi/datasets.html).
+
 ### Create your own network:
 To create your own network, you need three files: ```edge_list.npy```, ```attribute_matrix.npz```, and ```label_array.npy``` or ```label_array.npz``` (depending on whether the graph is single-labeled or multi-labeled). Make sure all your vertex IDs are in the range _(0, nodes-1)_. Create a numpy array of the edges of shape _(edges, 2)_ and save that file as ```edge_list.npy```. Store the attributes as a sparse CSR-matrix of shape _(nodes, attributes)_. To run PBGENA without attributes, simply create an empty attribute matrix for the non-attributed graph of proper shape, and set _α=0_. Save the attribute file as ```attribute_matrix.npz```. The file for label array is required only for node classification, and can be ignored to perform link prediction on unlabeled graphs. If the graph is single-labeled, the file ```label_array.npy``` is a simple 1D array where the _i_'th number denotes the label for node _i_. For multi-labeled graphs, ```label_array.npz``` is a [MultiLabelBinarized](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MultiLabelBinarizer.html) CSR-matrix of shape _(nodes, labels)_. Finally, put these three files in a folder named with the graph name and add it to the ```Datasets``` folder.
