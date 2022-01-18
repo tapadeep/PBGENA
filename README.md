@@ -4,7 +4,7 @@ A Sketch-based Approach towards Scalable and Efficient Attributed Network Embedd
 
 <img src="https://github.com/tapadeep/PBGENA/blob/main/Examples/PBGENA_snapshot.png" width="575">
 
-## Key Features:
+### Key Features:
 1. The algorithm BGENA generates node embeddings of a graph whose vertices can optionally have binary attributes.
 2. PBGENA, Parallelized BGENA.
 
