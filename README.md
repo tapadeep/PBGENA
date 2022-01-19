@@ -92,7 +92,7 @@ Flag | Description |
 ```--b_a``` | Attribute Bitset Probability
 ```--b_t``` | Topology Bitset Probability
 ```--erf``` | Fraction of edges to be removed for link prediction
-```--graph``` | Network used for embedding
+```--graph``` | Network to be used for embedding
 ```--multi``` | Identify if the graph is Multi-Labeled
 ```--N``` | Embedding Dimension
 ```--p``` | Number of workers to use
