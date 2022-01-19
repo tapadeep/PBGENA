@@ -5,11 +5,11 @@ A Sketch-based Approach towards Scalable and Efficient Attributed Network Embedd
 <img src="https://github.com/tapadeep/PBGENA/blob/main/Examples/PBGENA_snapshot.png" width="575">
 
 ### Key Features:
-1. BGENA is a super-fast sketch-based ANE solver, which uses [BinSketch](https://doi.org/10.1109/ICDM.2019.00061) and a novel edge propagation mechanism.
+1. BGENA is a super-fast sketch-based ANE solver, which uses [BinSketch](https://doi.org/10.1109/ICDM.2019.00061) coupled with a novel edge propagation mechanism.
 2. PBGENA is the parallel version of BGENA, which uses MPI to leverage a system's multi-core architecture to further speedup BGENA.
 3. PBGENA outputs binary embeddings allowing for efficient bitarray/sparse-matrix storage, thereby saving system space.
 4. PBGENA beats the state-of-the-art baselines in performance in terms of graph analysis tasks like node classification, link prediction.
-5. PBGENA is highly flexible and can work with just the topology or attributes of the graph.
+5. PBGENA is highly flexible and can work with just the topology or attributes of the graph, and can turn off propagation altogether.
 
 ### Get PBGENA:
 ```
@@ -50,7 +50,7 @@ python -B link_prediction.py --graph Facebook --algorithm BGENA --erf 0.3 --N 20
 cd PBGENA/Code/Algorithm
 python PBGENA.py --graph PubMed --N 8000 --alpha 0.65 --b_a 0 --b_t 0.8 --p 6
 ```
-Make sure you have Open MPI, MPICH, or Microsoft MPI installed in your system. 
+Make sure you have Open MPI, MPICH, or Microsoft MPI installed in your system.
 
 #### Perform Node Classification:
 ```
@@ -64,10 +64,40 @@ cd 'PBGENA/Code/Link Prediction'
 python -B link_prediction.py --graph PubMed --algorithm PBGENA --erf 0.3 --N 8000 --alpha 0.95 --b_a 0.2 --b_t 0.2 --p 6
 ```
 
+### Execute Baselines:
+
+#### Perform Node Embedding:
+```
+cd PBGENA/Code/Algorithm
+python Baseline.py --graph CiteSeer --algorithm FeatherNode --reduction_dimensions 25 --eval_points 5 --order 1 --theta_max 1
+```
+
+#### Perform Node Classification:
+```
+cd 'PBGENA/Code/Node Classification'
+python node_classification.py --graph CiteSeer --algorithm FeatherNode --tr 0.7
+```
+
+#### Perform Link Prediction:
+```
+cd 'PBGENA/Code/Link Prediction'
+python -B link_prediction.py --graph CiteSeer --algorithm FeatherNode --erf 0.3 --reduction_dimensions 25 --eval_points 5 --order 1 --theta_max 1
+```
+
 ### Relevant Flags:
 Flag | Description |
 :---: | :--- |
+```--algorithm``` | Embedding Method to be used
+```--alpha``` | Fraction of the Embedding Dimension to be used for attributes
+```--b_a``` | Attribute Bitset Probability
+```--b_t``` | Topology Bitset Probability
+```--erf``` | Fraction of edges to be removed for link prediction
+```--graph``` | Network used for embedding
+```--multi``` | Identify if the graph is Multi-Labeled
+```--N``` | Embedding Dimension
 ```--tr``` | Training Ratio for Node Classification
+
+There are some other standard flags and the remaining flags can be obtained from [Karate Club](https://karateclub.readthedocs.io/).
 
 ### Examples:
 An online [Google Colaboratory Notebook](https://colab.research.google.com/drive/1BxVSlK0UNK4e1-5S6Ntw0HhbiAqSv9P5?usp=sharing) is provided, which demonstrates PBGENA's working. Other examples are provided in the ```Examples``` folder.
