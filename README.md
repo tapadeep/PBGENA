@@ -6,10 +6,10 @@ A Sketch-based Approach towards Scalable and Efficient Attributed Network Embedd
 
 ### Key Features:
 1. BGENA is a super-fast sketch-based ANE solver, which uses [BinSketch](https://doi.org/10.1109/ICDM.2019.00061) coupled with a novel edge propagation mechanism.
-2. PBGENA is the parallel version of BGENA, which uses MPI to leverage a system's multi-core architecture to further speedup BGENA.
-3. PBGENA outputs binary embeddings allowing for efficient bitarray/sparse-matrix storage, thereby saving system space.
-4. PBGENA beats the state-of-the-art baselines in performance in terms of graph analysis tasks like node classification, link prediction.
-5. PBGENA is highly flexible and can work with just the topology or attributes of the graph, and can turn off propagation altogether.
+2. PBGENA, Parallelized BGENA, uses MPI to leverage a system's multi-core architecture to further accelerate the embedding process.
+3. PBGENA's binary embeddings allow efficient [bitarray](https://github.com/ilanschnell/bitarray)/[sparse-matrix](https://docs.scipy.org/doc/scipy/reference/sparse.html) storage.
+4. PBGENA embeddings achieve state-of-the-art performance in graph analysis tasks like node classification, link prediction.
+5. PBGENA is highly flexible and can work with just the topology or the attributes of the graph, and enables turning off propagation altogether.
 
 ### Get PBGENA:
 ```
