@@ -97,7 +97,7 @@ Flag | Description |
 ```--N``` | Embedding Dimension
 ```--tr``` | Training Ratio for Node Classification
 
-There are some other standard flags and the remaining flags can be obtained from [Karate Club](https://karateclub.readthedocs.io/).
+There are some other standard flags and the remaining flag descriptions can be obtained from the python graph learning framework [Karate Club](https://karateclub.readthedocs.io/).
 
 ### Examples:
 An online [Google Colaboratory Notebook](https://colab.research.google.com/drive/1BxVSlK0UNK4e1-5S6Ntw0HhbiAqSv9P5?usp=sharing) is provided, which demonstrates PBGENA's working. Other examples are provided in the ```Examples``` folder.
