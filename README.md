@@ -95,6 +95,7 @@ Flag | Description |
 ```--graph``` | Network used for embedding
 ```--multi``` | Identify if the graph is Multi-Labeled
 ```--N``` | Embedding Dimension
+```--p``` | Number of workers to use
 ```--tr``` | Training Ratio for Node Classification
 
 There are some other standard flags and the remaining flag descriptions can be obtained from the python graph learning framework [Karate Club](https://karateclub.readthedocs.io/).
