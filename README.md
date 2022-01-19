@@ -5,8 +5,11 @@ A Sketch-based Approach towards Scalable and Efficient Attributed Network Embedd
 <img src="https://github.com/tapadeep/PBGENA/blob/main/Examples/PBGENA_snapshot.png" width="575">
 
 ### Key Features:
-1. The algorithm BGENA generates node embeddings of a graph whose vertices can optionally have binary attributes.
-2. PBGENA, Parallelized BGENA.
+1. BGENA is a super-fast sketch-based ANE solver, which uses [BinSketch](https://doi.org/10.1109/ICDM.2019.00061) and a novel edge propagation mechanism.
+2. PBGENA is the parallel version of BGENA, which uses MPI to leverage a system's multi-core architecture to further speedup BGENA.
+3. PBGENA outputs binary embeddings allowing for efficient bitarray/sparse-matrix storage, thereby saving system space.
+4. PBGENA beats the state-of-the-art baselines in performance in terms of graph analysis tasks like node classification, link prediction.
+5. PBGENA is highly flexible and can work with just the topology or attributes of the graph.
 
 ### Get PBGENA:
 ```
