@@ -88,11 +88,11 @@ python -B link_prediction.py --graph CiteSeer --algorithm FeatherNode --erf 0.3 
 Flag | Type | Description | Range | Default |
 :---: | :---: | :--- | :---: | :---: |
 ```--algorithm``` | ```STRING``` | Embedding Method to be used | _{BGENA, PBGENA, Baselines}_ | _PBGENA_ |
-```--alpha``` | ```FLOAT``` | Fraction of the Embedding Dimension to be used for attributes | _\[0,1\]_ | _0.5_ |
-```--b_a``` | ```FLOAT``` | Attribute Bitset Probability | _\[0,1\]_ | _0.5_ |
-```--b_t``` | ```FLOAT``` | Topology Bitset Probability | _\[0,1\]_ | _0.5_ |
+```--alpha``` | ```FLOAT``` | Fraction of the Embedding Dimension to be used for attributes | _\[0,1\]_ | _-_ |
+```--b_a``` | ```FLOAT``` | Attribute Bitset Probability | _\[0,1\]_ | _-_ |
+```--b_t``` | ```FLOAT``` | Topology Bitset Probability | _\[0,1\]_ | _-_ |
 ```--erf``` | ```FLOAT``` | Fraction of edges to be removed for link prediction | _(0,1)_ | _0.3_ |
-```--graph``` | ```STRING``` | Network to be used for embedding | _Any Network_ | _Facebook_ |
+```--graph``` | ```STRING``` | Network to be used for embedding | _Any Network_ | _-_ |
 ```--multi``` | ```BOOLEAN``` | Identify if the graph is Multi-Labeled | _{True, False}_ | _False_ |
 ```--N``` | ```INTEGER``` | Embedding Dimension | _(0, ∞)_ | _2000_ |
 ```--p``` | ```INTEGER``` | Number of workers to use | _(0, ∞)_ | _32_ |
