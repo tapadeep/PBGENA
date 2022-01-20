@@ -87,7 +87,7 @@ python -B link_prediction.py --graph CiteSeer --algorithm FeatherNode --erf 0.3 
 ### Relevant Flags:
 Flag | Type | Description | Range | Default |
 :---: | :---: | :--- | :---: | :---: |
-```--algorithm``` | ```STRING``` | Embedding Method to be used | _{BGENA, PBGENA, Baselines}_ | _PBGENA_ |
+```--algorithm``` | ```STRING``` | Embedding Method to be used | _{BGENA, PBGENA, ...}_ | _PBGENA_ |
 ```--alpha``` | ```FLOAT``` | Fraction of the Embedding Dimension to be used for attributes | _\[0,1\]_ | _-_ |
 ```--b_a``` | ```FLOAT``` | Attribute Bitset Probability | _\[0,1\]_ | _-_ |
 ```--b_t``` | ```FLOAT``` | Topology Bitset Probability | _\[0,1\]_ | _-_ |
