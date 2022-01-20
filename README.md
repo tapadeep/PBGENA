@@ -85,18 +85,18 @@ python -B link_prediction.py --graph CiteSeer --algorithm FeatherNode --erf 0.3 
 ```
 
 ### Relevant Flags:
-Flag | Description |
-:---: | :--- |
-```--algorithm``` | Embedding Method to be used
-```--alpha``` | Fraction of the Embedding Dimension to be used for attributes
-```--b_a``` | Attribute Bitset Probability
-```--b_t``` | Topology Bitset Probability
-```--erf``` | Fraction of edges to be removed for link prediction
-```--graph``` | Network to be used for embedding
-```--multi``` | Identify if the graph is Multi-Labeled
-```--N``` | Embedding Dimension
-```--p``` | Number of workers to use
-```--tr``` | Training Ratio for Node Classification
+Flag | Type | Description | Default |
+:---: | :---: | :--- | :---: |
+```--algorithm``` | ```STRING``` | Embedding Method to be used | _PBGENA_
+```--alpha``` | ```FLOAT``` | Fraction of the Embedding Dimension to be used for attributes | _0.5_
+```--b_a``` | ```FLOAT``` | Attribute Bitset Probability | _0.5_
+```--b_t``` | ```FLOAT``` | Topology Bitset Probability | _0.5_
+```--erf``` | ```FLOAT``` | Fraction of edges to be removed for link prediction |  _0.3_
+```--graph``` | ```STRING``` | Network to be used for embedding | _Facebook_
+```--multi``` | ```BOOLEAN``` | Identify if the graph is Multi-Labeled | _False_
+```--N``` | ```INTEGER``` | Embedding Dimension | _2000_
+```--p``` | ```INTEGER``` | Number of workers to use | _32_
+```--tr``` | ```FLOAT``` | Training Ratio for Node Classification | _0.7_
 
 There are some other standard flags and the remaining flag descriptions can be obtained from the python graph learning framework [Karate Club](https://karateclub.readthedocs.io/).
 
