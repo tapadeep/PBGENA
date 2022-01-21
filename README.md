@@ -87,17 +87,17 @@ python -B link_prediction.py --graph CiteSeer --algorithm FeatherNode --erf 0.3 
 ### Relevant Flags:
 Flag | Type | Description | Range | Default |
 :---: | :---: | :--- | :---: | :---: |
-```--algorithm``` | ```STRING``` | Embedding Method to be used | _{BGENA, PBGENA, <br>Baselines}_ | _PBGENA_ |
-```--alpha``` | ```FLOAT``` | Fraction of the Embedding Dimension to be used for attributes | _\[0, 1\]_ | _-_ |
+```--algorithm``` | ```STRING``` | Embedding Method to be used | _{BGENA, PBGENA,<br>Baselines}_ | _PBGENA_ |
+```--alpha``` | ```FLOAT``` | Fraction of the Embedding Dimension<br>to be used for attributes | _\[0, 1\]_ | _-_ |
 ```--b_a``` | ```FLOAT``` | Attribute Bitset Probability | _\[0, 1\]_ | _-_ |
 ```--b_t``` | ```FLOAT``` | Topology Bitset Probability | _\[0, 1\]_ | _-_ |
-```--erf``` | ```FLOAT``` | Fraction of edges to be removed for link prediction | _(0, 1)_ | _0.3_ |
-```--f``` | ```INTEGER``` | Fragment parameter for PBGENA communication calls | _ℕ_ | _1_ |
+```--erf``` | ```FLOAT``` | Fraction of edges to be removed<br>for link prediction | _(0, 1)_ | _0.3_ |
+```--f``` | ```INTEGER``` | Fragment parameter for PBGENA<br>communication calls | _ℕ_ | _1_ |
 ```--f_a``` | ```FLOAT``` | Reduction fraction for b_a each pass | _\[1, ∞)_ | _2_ |
 ```--f_t``` | ```FLOAT``` | Reduction fraction for b_t each pass | _\[1, ∞)_ | _2_ |
 ```--graph``` | ```STRING``` | Network to be used for embedding | _Any Network_ | _-_ |
-```--l_a``` | ```INTEGER``` | Number of passes of attribute edge propagation | _ℕ_ | _1_ |
-```--l_t``` | ```INTEGER``` | Number of passes of topology edge propagation | _ℕ_ | _1_ |
+```--l_a``` | ```INTEGER``` | Number of passes of attribute<br>edge propagation | _ℕ_ | _1_ |
+```--l_t``` | ```INTEGER``` | Number of passes of topology<br>edge propagation | _ℕ_ | _1_ |
 ```--multi``` | ```BOOLEAN``` | Identify if the graph is Multi-Labeled | _{True, False}_ | _False_ |
 ```--N``` | ```INTEGER``` | Embedding Dimension | _ℕ_ | _2000_ |
 ```--p``` | ```INTEGER``` | Number of workers to use | _ℕ_ | _32_ |
