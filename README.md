@@ -94,8 +94,8 @@ Flag | Type | Description | Range | Default |
 ```--erf``` | ```FLOAT``` | Fraction of edges to be removed for link prediction | _(0,1)_ | _0.3_ |
 ```--graph``` | ```STRING``` | Network to be used for embedding | _Any Network_ | _-_ |
 ```--multi``` | ```BOOLEAN``` | Identify if the graph is Multi-Labeled | _{True, False}_ | _False_ |
-```--N``` | ```INTEGER``` | Embedding Dimension | _(0, ∞)_ | _2000_ |
-```--p``` | ```INTEGER``` | Number of workers to use | _(0, ∞)_ | _32_ |
+```--N``` | ```INTEGER``` | Embedding Dimension | _ℕ_ | _2000_ |
+```--p``` | ```INTEGER``` | Number of workers to use | _ℕ_ | _32_ |
 ```--tr``` | ```FLOAT``` | Training Ratio for Node Classification | _(0,1)_ | _0.7_ |
 
 There are some other standard flags and the remaining flag descriptions can be obtained from the python graph learning framework [Karate Club](https://karateclub.readthedocs.io/).
