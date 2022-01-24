@@ -215,17 +215,17 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td>Facebook</td>
 			<td style="text-align:center;">32.89±1.65</td>
 			<td style="text-align:center;">75.41±0.88</td>
-			<td style="text-align:center;"></td>
-			<td style="text-align:center;"></td>
-			<td></td>
+			<td style="text-align:center;">97.70±0.05</td>
+			<td style="text-align:center;">97.88±0.04</td>
+			<td>1.22</td>
 			<td>0.16</td>
 		</tr>
 		<tr>
 			<td>BlogCatalog</td>
 			<td style="text-align:center;">91.97±0.58</td>
 			<td style="text-align:center;">92.07±0.59</td>
-			<td style="text-align:center;"></td>
-			<td style="text-align:center;"></td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">±</td>
 			<td></td>
 			<td>0.06</td>
 		</tr>
@@ -233,8 +233,8 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td>Flickr</td>
 			<td style="text-align:center;">78.08±0.76</td>
 			<td style="text-align:center;">77.92±0.81</td>
-			<td style="text-align:center;"></td>
-			<td style="text-align:center;"></td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">±</td>
 			<td></td>
 			<td>0.09</td>
 		</tr>
@@ -242,8 +242,8 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td>PubMed</td>
 			<td style="text-align:center;">86.55±0.24</td>
 			<td style="text-align:center;">86.75±0.22</td>
-			<td style="text-align:center;"></td>
-			<td style="text-align:center;"></td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">±</td>
 			<td></td>
 			<td>0.20</td>
 		</tr>
@@ -251,8 +251,8 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td>PPI</td>
 			<td style="text-align:center;">±</td>
 			<td style="text-align:center;">±</td>
-			<td style="text-align:center;"></td>
-			<td style="text-align:center;"></td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">±</td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -260,8 +260,8 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td>Twitter</td>
 			<td style="text-align:center;">±</td>
 			<td style="text-align:center;">±</td>
-			<td style="text-align:center;"></td>
-			<td style="text-align:center;"></td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">±</td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -269,8 +269,8 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td>Google+</td>
 			<td style="text-align:center;">±</td>
 			<td style="text-align:center;">±</td>
-			<td style="text-align:center;"></td>
-			<td style="text-align:center;"></td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">±</td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -278,8 +278,8 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td>Reddit</td>
 			<td style="text-align:center;">±</td>
 			<td style="text-align:center;">±</td>
-			<td style="text-align:center;"></td>
-			<td style="text-align:center;"></td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">±</td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -287,8 +287,8 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td>TWeibo</td>
 			<td style="text-align:center;">±</td>
 			<td style="text-align:center;">±</td>
-			<td style="text-align:center;"></td>
-			<td style="text-align:center;"></td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">±</td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -296,8 +296,8 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td>MAKG</td>
 			<td style="text-align:center;">±</td>
 			<td style="text-align:center;">±</td>
-			<td style="text-align:center;"></td>
-			<td style="text-align:center;"></td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">±</td>
 			<td></td>
 			<td></td>
 		</tr>
