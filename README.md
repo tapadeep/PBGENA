@@ -198,6 +198,14 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;"></td>
 			<td>0.08</td>
 		</tr>
+		<tr>
+			<td>CiteSeer</td>
+			<td style="text-align:center;">68.95±0.95</td>
+			<td style="text-align:center;">72.07±0.54</td>
+			<td style="text-align:center;"></td>
+			<td style="text-align:center;"></td>
+			<td>0.09</td>
+		</tr>
 </table>
 
 ### Create your own network:
