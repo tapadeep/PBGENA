@@ -174,13 +174,15 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td rowspan="2" style="text-align:center;"><b>Graph</b></td>
 			<td colspan="2" style="text-align:center;"><b>Node Classification (%)</b></td>
 			<td colspan="2" style="text-align:center;"><b>Link Prediction (%)</b></td>
-			<td rowspan="2" style="text-align:center;"><b>Time (s)</b></td>
+			<td colspan="2" style="text-align:center;"><b>Time (s)</b></td>
 		</tr>
 		<tr>
 			<td style="text-align:center;"><b>Macro-F1</b></td>
 			<td style="text-align:center;"><b>Micro-F1</b></td>
 			<td style="text-align:center;"><span class="caps"><b>AUC</span>-<span class="caps">ROC</b></span></td>
 			<td style="text-align:center;"><b>Avg Precision</b></td>
+			<td style="text-align:center;"><b>Serial</b></td>
+			<td style="text-align:center;"><b>Parallel</b></td>
 		</tr>
 		<tr>
 			<td>Wikipedia</td>
@@ -188,6 +190,7 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;">79.53±1.78</td>
 			<td style="text-align:center;"></td>
 			<td style="text-align:center;"></td>
+			<td></td>
 			<td>0.08</td>
 		</tr>
 		<tr>
@@ -196,6 +199,7 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;">85.66±1.15</td>
 			<td style="text-align:center;"></td>
 			<td style="text-align:center;"></td>
+			<td></td>
 			<td>0.08</td>
 		</tr>
 		<tr>
@@ -204,6 +208,7 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;">72.07±0.54</td>
 			<td style="text-align:center;"></td>
 			<td style="text-align:center;"></td>
+			<td></td>
 			<td>0.09</td>
 		</tr>
 		<tr>
@@ -212,6 +217,7 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;">75.41±0.88</td>
 			<td style="text-align:center;"></td>
 			<td style="text-align:center;"></td>
+			<td></td>
 			<td>0.16</td>
 		</tr>
 		<tr>
@@ -220,6 +226,7 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;">92.07±0.59</td>
 			<td style="text-align:center;"></td>
 			<td style="text-align:center;"></td>
+			<td></td>
 			<td>0.06</td>
 		</tr>
 		<tr>
@@ -228,6 +235,7 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;">77.92±0.81</td>
 			<td style="text-align:center;"></td>
 			<td style="text-align:center;"></td>
+			<td></td>
 			<td>0.09</td>
 		</tr>
 		<tr>
@@ -236,6 +244,7 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;">86.75±0.22</td>
 			<td style="text-align:center;"></td>
 			<td style="text-align:center;"></td>
+			<td></td>
 			<td>0.20</td>
 		</tr>
 		<tr>
@@ -245,6 +254,7 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;"></td>
 			<td style="text-align:center;"></td>
 			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>Twitter</td>
@@ -252,6 +262,7 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;">±</td>
 			<td style="text-align:center;"></td>
 			<td style="text-align:center;"></td>
+			<td></td>
 			<td></td>
 		</tr>
 		<tr>
@@ -261,6 +272,7 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;"></td>
 			<td style="text-align:center;"></td>
 			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>Reddit</td>
@@ -268,6 +280,7 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;">±</td>
 			<td style="text-align:center;"></td>
 			<td style="text-align:center;"></td>
+			<td></td>
 			<td></td>
 		</tr>
 		<tr>
@@ -277,6 +290,7 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;"></td>
 			<td style="text-align:center;"></td>
 			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>MAKG</td>
@@ -284,6 +298,7 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;">±</td>
 			<td style="text-align:center;"></td>
 			<td style="text-align:center;"></td>
+			<td></td>
 			<td></td>
 		</tr>
 </table>
