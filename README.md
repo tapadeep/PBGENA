@@ -61,7 +61,7 @@ python node_classification.py --graph PubMed --algorithm PBGENA --tr 0.7
 #### Perform Link Prediction:
 ```
 cd 'PBGENA/Code/Link Prediction'
-python -B link_prediction.py --graph PubMed --algorithm PBGENA --erf 0.3 --N 8000 --alpha 0.95 --b_a 0.2 --b_t 0.2 --p 6
+python -B link_prediction.py --graph PubMed --algorithm PBGENA --erf 0.3 --N 8000 --alpha 1 --b_a 0.25 --b_t 0 --p 6
 ```
 
 ### Execute Baselines:
