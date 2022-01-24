@@ -184,11 +184,11 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 		</tr>
 		<tr>
 			<td>Wikipedia</td>
+			<td style="text-align:center;">70.23±4.45</td>
+			<td style="text-align:center;">79.53±1.78</td>
 			<td style="text-align:center;"></td>
 			<td style="text-align:center;"></td>
-			<td style="text-align:center;"></td>
-			<td style="text-align:center;"></td>
-			<td></td>
+			<td>0.08</td>
 		</tr>
 </table>
 
