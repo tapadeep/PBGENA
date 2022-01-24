@@ -233,8 +233,8 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td>Flickr</td>
 			<td style="text-align:center;">78.08±0.76</td>
 			<td style="text-align:center;">77.92±0.81</td>
-			<td style="text-align:center;">±</td>
-			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">90.40±0.07</td>
+			<td style="text-align:center;">90.49±0.08</td>
 			<td>0.09</td>
 			<td>0.06</td>
 		</tr>
