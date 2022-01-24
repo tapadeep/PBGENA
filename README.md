@@ -169,20 +169,27 @@ python data_processing.py --file cora --graph Cora
 This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevant files which can be used to train PBGENA. Use the ```--multi True``` flag for converting multi-labeled networks.
 
 ### Bechmarked Performance
-
 <table>
-  <tr>
-    <td colspan='2'>Node Classification (%)</td>
-    <td colspan='2'>Link Prediction (%)</td>
-    <td>Time (s)</td>
-  </tr>
-  <tr>
-    <td>Macro-F1</td>
-    <td>Micro-F1</td>
-    <td>AUC-ROC</td>
-    <td>Average Precision</td>
-    <td></td>
-  </tr>
+		<tr>
+			<td rowspan="2" style="text-align:center;"><b>Graph</b></td>
+			<td colspan="2" style="text-align:center;"><b>Node Classification (%)</b></td>
+			<td colspan="2" style="text-align:center;"><b>Link Prediction (%)</b></td>
+			<td rowspan="2" style="text-align:center;"><b>Time (s)</b></td>
+		</tr>
+		<tr>
+			<td style="text-align:center;"><b>Macro-F1</b></td>
+			<td style="text-align:center;"><b>Micro-F1</b></td>
+			<td style="text-align:center;"><span class="caps"><b>AUC</span>-<span class="caps">ROC</b></span></td>
+			<td style="text-align:center;"><b>Average Precision</b></td>
+		</tr>
+		<tr>
+			<td>Wikipedia</td>
+			<td style="text-align:center;"></td>
+			<td style="text-align:center;"></td>
+			<td style="text-align:center;"></td>
+			<td style="text-align:center;"></td>
+			<td></td>
+		</tr>
 </table>
 
 ### Create your own network:
