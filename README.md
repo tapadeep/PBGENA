@@ -214,6 +214,14 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;"></td>
 			<td>0.16</td>
 		</tr>
+		<tr>
+			<td>BlogCatalog</td>
+			<td style="text-align:center;">91.97±0.58</td>
+			<td style="text-align:center;">92.07±0.59</td>
+			<td style="text-align:center;"></td>
+			<td style="text-align:center;"></td>
+			<td>0.06</td>
+		</tr>
 </table>
 
 ### Create your own network:
