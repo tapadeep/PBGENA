@@ -206,9 +206,9 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td>CiteSeer</td>
 			<td style="text-align:center;">68.95±0.95</td>
 			<td style="text-align:center;">72.07±0.54</td>
-			<td style="text-align:center;"></td>
-			<td style="text-align:center;"></td>
-			<td></td>
+			<td style="text-align:center;">92.93±0.55</td>
+			<td style="text-align:center;">94.33±0.45</td>
+			<td>0.80</td>
 			<td>0.09</td>
 		</tr>
 		<tr>
