@@ -188,9 +188,9 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td>Wikipedia</td>
 			<td style="text-align:center;">70.23±4.45</td>
 			<td style="text-align:center;">79.53±1.78</td>
-			<td style="text-align:center;"></td>
-			<td style="text-align:center;"></td>
-			<td></td>
+			<td style="text-align:center;">85.32±0.26</td>
+			<td style="text-align:center;">86.49±0.27</td>
+			<td>0.85</td>
 			<td>0.08</td>
 		</tr>
 		<tr>
