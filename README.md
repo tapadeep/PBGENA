@@ -235,8 +235,8 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;">77.92±0.81</td>
 			<td style="text-align:center;">±</td>
 			<td style="text-align:center;">±</td>
-			<td></td>
 			<td>0.09</td>
+			<td>0.06</td>
 		</tr>
 		<tr>
 			<td>PubMed</td>
