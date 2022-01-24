@@ -136,7 +136,7 @@ CiteSeer | 0.90 | 0.20 | 0.40 |
 Facebook | 0.80 | 1.00 | 0.00 |
 BlogCatalog | 0.90 | 0.05 | 0.00 |
 Flickr | 0.90 | 0.00 | 0.00 |
-PubMed | 0.95 | 0.20 | 0.20 |
+PubMed | 1.00 | 0.25 | 0.00 |
 PPI | 0.10 | 0.00 | 0.10 |
 Twitter | 0.95 | 0.00 | 0.20 |
 Google+ | 0.90 | 0.05 | 0.10 |
@@ -242,9 +242,9 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td>PubMed</td>
 			<td style="text-align:center;">86.55±0.24</td>
 			<td style="text-align:center;">86.75±0.22</td>
-			<td style="text-align:center;">±</td>
-			<td style="text-align:center;">±</td>
-			<td></td>
+			<td style="text-align:center;">91.91±0.23</td>
+			<td style="text-align:center;">92.38±0.28</td>
+			<td>2.09</td>
 			<td>0.20</td>
 		</tr>
 		<tr>
