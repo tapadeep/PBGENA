@@ -238,6 +238,54 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;"></td>
 			<td>0.20</td>
 		</tr>
+		<tr>
+			<td>PPI</td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;"></td>
+			<td style="text-align:center;"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Twitter</td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;"></td>
+			<td style="text-align:center;"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Google+</td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;"></td>
+			<td style="text-align:center;"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Reddit</td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;"></td>
+			<td style="text-align:center;"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>TWeibo</td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;"></td>
+			<td style="text-align:center;"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>MAKG</td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">±</td>
+			<td style="text-align:center;"></td>
+			<td style="text-align:center;"></td>
+			<td></td>
+		</tr>
 </table>
 
 ### Create your own network:
