@@ -168,7 +168,7 @@ python data_processing.py --file cora --graph Cora
 ```
 This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevant files which can be used to train PBGENA. Use the ```--multi True``` flag for converting multi-labeled networks.
 
-### Bechmarked Performance
+### Bechmarked Performance:
 <table>
 		<tr>
 			<td rowspan="2" style="text-align:center;"><b>Graph</b></td>
@@ -186,6 +186,14 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td>Wikipedia</td>
 			<td style="text-align:center;">70.23±4.45</td>
 			<td style="text-align:center;">79.53±1.78</td>
+			<td style="text-align:center;"></td>
+			<td style="text-align:center;"></td>
+			<td>0.08</td>
+		</tr>
+		<tr>
+			<td>Cora</td>
+			<td style="text-align:center;">84.88±1.56</td>
+			<td style="text-align:center;">85.66±1.15</td>
 			<td style="text-align:center;"></td>
 			<td style="text-align:center;"></td>
 			<td>0.08</td>
