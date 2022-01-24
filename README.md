@@ -134,7 +134,7 @@ Wikipedia | 0.95 | 0.20 | 0.20 |
 Cora | 0.60 | 0.30 | 0.40 |
 CiteSeer | 0.90 | 0.20 | 0.40 |
 Facebook | 0.80 | 1.00 | 0.00 |
-BlogCatalog | 0.90 | 0.20 | 0.00 |
+BlogCatalog | 0.90 | 0.05 | 0.00 |
 Flickr | 0.90 | 0.00 | 0.00 |
 PubMed | 0.95 | 0.20 | 0.20 |
 PPI | 0.10 | 0.00 | 0.10 |
@@ -224,9 +224,9 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td>BlogCatalog</td>
 			<td style="text-align:center;">91.97±0.58</td>
 			<td style="text-align:center;">92.07±0.59</td>
-			<td style="text-align:center;">±</td>
-			<td style="text-align:center;">±</td>
-			<td></td>
+			<td style="text-align:center;">80.23±0.14</td>
+			<td style="text-align:center;">80.46±0.17</td>
+			<td>0.36</td>
 			<td>0.06</td>
 		</tr>
 		<tr>
