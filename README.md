@@ -180,7 +180,7 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;"><b>Macro-F1</b></td>
 			<td style="text-align:center;"><b>Micro-F1</b></td>
 			<td style="text-align:center;"><span class="caps"><b>AUC</span>-<span class="caps">ROC</b></span></td>
-			<td style="text-align:center;"><b>Average Precision</b></td>
+			<td style="text-align:center;"><b>Avg Precision</b></td>
 		</tr>
 		<tr>
 			<td>Wikipedia</td>
