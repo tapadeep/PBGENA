@@ -168,5 +168,22 @@ python data_processing.py --file cora --graph Cora
 ```
 This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevant files which can be used to train PBGENA. Use the ```--multi True``` flag for converting multi-labeled networks.
 
+### Bechmarked Performance
+
+<table>
+  <tr>
+    <td colspan='2'>Node Classification (%)</td>
+    <td colspan='2'>Link Prediction (%)</td>
+    <td>Time (s)</td>
+  </tr>
+  <tr>
+    <td>Macro-F1</td>
+    <td>Micro-F1</td>
+    <td>AUC-ROC</td>
+    <td>Average Precision</td>
+    <td></td>
+  </tr>
+</table>
+
 ### Create your own network:
 To create your network, you need three files: ```edge_list.npy```, ```attribute_matrix.npz```, and ```label_array.npy``` or ```label_array.npz``` (depending on whether the graph is single-labeled or multi-labeled). Ensure all your vertex IDs are in the range _(0, nodes-1)_. Create a numpy array of the edges of shape _(edges, 2)_ and save that file as ```edge_list.npy```. Store the attributes as a sparse CSR matrix of shape _(nodes, attributes)_. To run PBGENA without attributes, create an empty attribute matrix for the non-attributed graph of the proper shape and set _α=0_. Save the attribute file as ```attribute_matrix.npz```. The file for label array is required only for node classification and can be ignored to perform link prediction on unlabeled graphs. If the graph is single-labeled, the file ```label_array.npy``` is a simple 1D array where the _i_'th number denotes the label for node _i_. For multi-labeled graphs, ```label_array.npz``` is a [MultiLabelBinarized](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MultiLabelBinarizer.html) CSR-matrix of shape _(nodes, labels)_. Finally, put these three files in a folder named with the graph name and add it to the ```Datasets``` folder.
