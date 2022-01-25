@@ -290,7 +290,7 @@ if rank==0:
                 emb[k]=emb[k]+l
         del(E_a)
     time+=timeit.default_timer()-start_time
-    print('\nEmbedding Time = %.2fs\n'%time)
+    print('\nEmbedding Time = %.2fs'%time)
     pickle.dump(emb,open('../../Embeddings/'+graph+'_PBGENA_emb.pkl','wb'))
     del(emb)
 else:
