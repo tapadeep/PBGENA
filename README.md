@@ -137,7 +137,7 @@ Facebook | 0.80 | 1.00 | 0.00 |
 BlogCatalog | 0.90 | 0.05 | 0.00 |
 Flickr | 0.90 | 0.00 | 0.00 |
 PubMed | 1.00 | 0.25 | 0.00 |
-PPI | 0.10 | 0.00 | 0.10 |
+PPI | 0.00 | 0.00 | 0.30 |
 Twitter | 0.95 | 0.00 | 0.20 |
 Google+ | 0.90 | 0.05 | 0.10 |
 Reddit | 0.95 | 0.20 | 0.00 |
@@ -249,12 +249,12 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 		</tr>
 		<tr>
 			<td>PPI</td>
-			<td style="text-align:center;">±</td>
-			<td style="text-align:center;">±</td>
-			<td style="text-align:center;">±</td>
-			<td style="text-align:center;">±</td>
-			<td></td>
-			<td></td>
+			<td style="text-align:center;">40.30±0.06</td>
+			<td style="text-align:center;">54.58±0.05</td>
+			<td style="text-align:center;">96.12±0.03</td>
+			<td style="text-align:center;">96.82±0.03</td>
+			<td>17.06</td>
+			<td>1.09</td>
 		</tr>
 		<tr>
 			<td>Twitter</td>
