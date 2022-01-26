@@ -138,7 +138,7 @@ BlogCatalog | 0.90 | 0.05 | 0.00 |
 Flickr | 0.90 | 0.00 | 0.00 |
 PubMed | 1.00 | 0.25 | 0.00 |
 PPI | 0.00 | 0.00 | 0.30 |
-Twitter | 0.95 | 0.00 | 0.20 |
+Twitter | 1.00 | 0.00 | 0.00 |
 Google+ | 0.90 | 0.05 | 0.10 |
 Reddit | 0.95 | 0.20 | 0.00 |
 TWeibo | 0.95 | 0.00 | 0.00 |
@@ -260,8 +260,8 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td>Twitter</td>
 			<td style="text-align:center;">±</td>
 			<td style="text-align:center;">±</td>
-			<td style="text-align:center;">±</td>
-			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">97.46±0.02</td>
+			<td style="text-align:center;">97.50±0.02</td>
 			<td></td>
 			<td></td>
 		</tr>
