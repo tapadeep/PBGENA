@@ -269,8 +269,8 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td>Google+</td>
 			<td style="text-align:center;">±</td>
 			<td style="text-align:center;">±</td>
-			<td style="text-align:center;">±</td>
-			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">93.63±0.05</td>
+			<td style="text-align:center;">93.21±0.12</td>
 			<td></td>
 			<td></td>
 		</tr>
