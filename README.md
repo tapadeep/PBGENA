@@ -289,7 +289,7 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;">±</td>
 			<td style="text-align:center;">±</td>
 			<td style="text-align:center;">±</td>
-			<td></td>
+			<td>84.08</td>
 			<td>14.02</td>
 		</tr>
 		<tr>
