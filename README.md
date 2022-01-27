@@ -258,8 +258,8 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 		</tr>
 		<tr>
 			<td>Twitter</td>
-			<td style="text-align:center;">±</td>
-			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">25.43±0.33</td>
+			<td style="text-align:center;">56.47±0.74</td>
 			<td style="text-align:center;">97.46±0.02</td>
 			<td style="text-align:center;">97.50±0.02</td>
 			<td>46.19</td>
