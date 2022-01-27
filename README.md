@@ -253,8 +253,8 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;">54.58±0.05</td>
 			<td style="text-align:center;">96.12±0.03</td>
 			<td style="text-align:center;">96.82±0.03</td>
-			<td>17.06</td>
-			<td>1.09</td>
+			<td>16.30</td>
+			<td>1.05</td>
 		</tr>
 		<tr>
 			<td>Twitter</td>
@@ -262,8 +262,8 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;">±</td>
 			<td style="text-align:center;">97.46±0.02</td>
 			<td style="text-align:center;">97.50±0.02</td>
-			<td></td>
-			<td></td>
+			<td>46.19</td>
+			<td>1.61</td>
 		</tr>
 		<tr>
 			<td>Google+</td>
