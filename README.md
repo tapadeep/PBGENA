@@ -123,7 +123,7 @@ PubMed | 0.65 | 0.00 | 0.80 |
 PPI | 0.10 | 0.95 | 0.50 |
 Twitter | 0.60 | 0.00 | 0.00 |
 Google+ | 0.00 | 0.00 | 0.00 |
-Reddit | 0.10 | 0.00 | 0.00 |
+Reddit | 0.00 | 0.00 | 0.00 |
 TWeibo | 0.60 | 0.00 | 0.00 |
 MAKG | 0.85 | 0.86 | 0.60 |
 
@@ -280,8 +280,8 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;">±</td>
 			<td style="text-align:center;">±</td>
 			<td style="text-align:center;">±</td>
-			<td></td>
-			<td></td>
+			<td>75.32</td>
+			<td>3.68</td>
 		</tr>
 		<tr>
 			<td>TWeibo</td>
