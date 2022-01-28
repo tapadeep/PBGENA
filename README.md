@@ -276,8 +276,8 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 		</tr>
 		<tr>
 			<td>Reddit</td>
-			<td style="text-align:center;">±</td>
-			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">87.01±0.11</td>
+			<td style="text-align:center;">88.13±0.12</td>
 			<td style="text-align:center;">±</td>
 			<td style="text-align:center;">±</td>
 			<td>75.32</td>
