@@ -287,8 +287,8 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td>TWeibo</td>
 			<td style="text-align:center;">17.14±0.20</td>
 			<td style="text-align:center;">56.83±0.09</td>
-			<td style="text-align:center;">±</td>
-			<td style="text-align:center;">±</td>
+			<td style="text-align:center;">96.22±0.02</td>
+			<td style="text-align:center;">96.39±0.01</td>
 			<td>84.08</td>
 			<td>14.02</td>
 		</tr>
