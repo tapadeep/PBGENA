@@ -144,6 +144,8 @@ Reddit | 0.95 | 0.20 | 0.00 |
 TWeibo | 0.95 | 0.00 | 0.00 |
 MAKG | 0.85 | 0.86 | 0.60 |
 
+The other baseline hyperparameters used in the experiments can be obtained [here](https://docs.google.com/document/d/1qNmh95cBuVeVgDjV2RFbXbrdsb2yBXkIyrZh2m4mCi0/edit?usp=sharing).
+
 ### Datasets:
 Graph | #Vertices | #Edges | #Attributes | #Labels | Multi-<br>labeled? |
 :--- | :--- | :--- | :--- | :--- | :---: |
