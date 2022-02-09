@@ -301,7 +301,7 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 			<td style="text-align:center;">85.15±0.03</td>
 			<td style="text-align:center;">84.81±0.05</td>
 			<td>30060.00</td>
-			<td>18501.30</td>
+			<td>6167.10</td>
 		</tr>
 </table>
 
