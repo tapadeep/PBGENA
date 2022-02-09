@@ -85,6 +85,7 @@ class PBGENA(object):
         print('Embedding Time + Graph Reading Time = %.2fs\n'%elapsed)
         os.remove('../../Datasets/'+self.__graph+'/edge_list_preprocessed.npy')
         emb=pickle.load(open('../../Embeddings/'+self.__graph+'_PBGENA_emb.pkl','rb'))
+        print('Embedding Dimension =',len(emb[0].tolist()),'\n')
         return emb
     def embedding_as_array(self):
         print('Embedding as numpy array...\n')
