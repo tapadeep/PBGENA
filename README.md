@@ -296,12 +296,12 @@ This converts ```cora.attr.tar.gz``` to the ```Cora``` folder containing relevan
 		</tr>
 		<tr>
 			<td>MAKG</td>
-			<td style="text-align:center;">±</td>
-			<td style="text-align:center;">±</td>
-			<td style="text-align:center;">±</td>
-			<td style="text-align:center;">±</td>
-			<td></td>
-			<td></td>
+			<td style="text-align:center;">37.77±0.16</td>
+			<td style="text-align:center;">50.26±0.21</td>
+			<td style="text-align:center;">85.15±0.03</td>
+			<td style="text-align:center;">84.81±0.05</td>
+			<td>30060.00</td>
+			<td>18501.30</td>
 		</tr>
 </table>
 
