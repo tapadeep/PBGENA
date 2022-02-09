@@ -150,6 +150,7 @@ class Baseline(object):
         elapsed=timeit.default_timer()-start_time
         print('\nEmbedding Time = %.2fs\n'%elapsed)
         self.__emb=self.__model.get_embedding()
+        print('Embedding Dimension =',self.__emb.shape[1],'\n')
         pickle.dump(self.__emb,open('../../Embeddings/'+self.__graph+'_'+self.__algorithm+'_emb.pkl','wb'))
         return self.__emb
 if __name__=='__main__':
