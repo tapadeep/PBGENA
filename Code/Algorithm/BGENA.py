@@ -139,6 +139,7 @@ class BGENA(object):
             self.__emb=[self.__E_t[i]+self.__E_a[i] for i in range(self.__nodes)]
         elapsed=timeit.default_timer()-start_time
         print('\nEmbedding Time = %.2fs\n'%elapsed)
+        print('Embedding Dimension =',len(self.__emb[0].tolist()),'\n')
         pickle.dump(self.__emb,open('../../Embeddings/'+self.__graph+'_BGENA_emb.pkl','wb'))
         return self.__emb
     def embedding_as_array(self):
