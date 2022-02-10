@@ -242,7 +242,7 @@ if N_t>0:
             S_t=E_t
             b_t/=f_t
     del(S_t)
-del(in_edges,cross_edges,Phi_inverse)
+del(in_edges,cross_edges,Phi_inverse,Phi)
 if f==1:
     if N_t>0:
         E_t=comm.gather(E_t)
