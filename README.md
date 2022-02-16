@@ -69,7 +69,7 @@ python -B link_prediction.py --graph PubMed --algorithm PBGENA --erf 0.3 --N 800
 #### Perform Node Embedding:
 ```
 cd PBGENA/Code/Algorithm
-python Baseline.py --graph CiteSeer --algorithm FeatherNode --reduction_dimensions 25 --eval_points 5 --order 1 --theta_max 1
+python Baseline.py --graph CiteSeer --algorithm FeatherNode --reduction_dimensions 25 --eval_points 5 --order 1
 ```
 
 #### Perform Node Classification:
@@ -81,7 +81,7 @@ python node_classification.py --graph CiteSeer --algorithm FeatherNode --tr 0.7
 #### Perform Link Prediction:
 ```
 cd 'PBGENA/Code/Link Prediction'
-python -B link_prediction.py --graph CiteSeer --algorithm FeatherNode --erf 0.3 --reduction_dimensions 25 --eval_points 5 --order 1 --theta_max 1
+python -B link_prediction.py --graph CiteSeer --algorithm FeatherNode --erf 0.3 --reduction_dimensions 25 --eval_points 5 --order 1
 ```
 
 ### Relevant Flags:
